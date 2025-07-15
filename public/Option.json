@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Plan",
+    "price": 25,
+    "duration": "per month",
+    "features": [
+      "Access to all gym equipment",
+      "Locker room access",
+      "1 free personal training session",
+      "Access during off-peak hours",
+      "Mobile app workout tracking",
+      "Standard email support"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard Plan",
+    "price": 45,
+    "duration": "per month",
+    "features": [
+      "Includes Basic Plan features",
+      "Unlimited group fitness classes",
+      "Steam room access",
+      "Free Wi-Fi throughout gym",
+      "Monthly body composition analysis",
+      "Towel service"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium Plan",
+    "price": 65,
+    "duration": "per month",
+    "features": [
+      "Includes Standard Plan features",
+      "Weekly 1-on-1 personal training",
+      "Custom nutrition plan",
+      "Massage therapy discounts",
+      "Priority customer support",
+      "Unlimited guest passes"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Student Plan",
+    "price": 20,
+    "duration": "per month",
+    "features": [
+      "Access to gym and fitness equipment",
+      "Student-only group classes",
+      "Valid student ID required",
+      "Free Wi-Fi and study zone",
+      "Locker access during daytime",
+      "Discounted exam-time relaxation events"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Couple Plan",
+    "price": 80,
+    "duration": "per month",
+    "features": [
+      "Gym access for two people",
+      "All Standard Plan benefits",
+      "Partner training sessions",
+      "Access to couples yoga",
+      "Two locker room passes",
+      "Free merchandise on signup"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Annual VIP Plan",
+    "price": 550,
+    "duration": "per year",
+    "features": [
+      "All Premium Plan benefits",
+      "2 months free",
+      "Annual health screening",
+      "VIP fitness seminars & events",
+      "Customized fitness gear kit",
+      "Birthday and holiday gifts",
+      "Private locker reservation"
+    ]
+  }
+]

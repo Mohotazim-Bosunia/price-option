@@ -17,7 +17,7 @@ const NavBar = () => {
 ];
 
     return (
-        <nav>
+        <nav className="text-black bg-green-600 p-6">
             <div onClick={ () => setOpen(!open) } className="md:hidden text-2xl">
               {
                 open ===true  ? <IoClose></IoClose> : <RiMenuAddFill className=" "></RiMenuAddFill>
@@ -25,7 +25,9 @@ const NavBar = () => {
               
 
             </div>
-           <ul className="md:flex ">
+           <ul className={`md:flex duration-1000 absolute md:static
+              ${open ? 'top-16' : '-top-60'}
+            bg-sky-500 px-6 `}>
              {
                 routes.map(route => <Link 
                     key={route.id}
